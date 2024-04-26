@@ -1,0 +1,308 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1000;
+  height: 80px;
+}
+
+.container-padding {
+  padding-top: 60px;
+  margin-left: 100px
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    top: 0;
+    right: 0;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 0 0 1rem;
+  }
+
+  .nav-link {
+    padding: 10rem 1rem;
+  }
+}
+
+.corner-image {
+  position: absolute;
+  top: 10px;
+  left: 124px;
+  width: 56px;
+  height: 60px;
+  }
+
+.sus-slider {
+  height:670px;
+  width:101%;
+  right:0;
+  left:0;
+}
+   
+.ajus-img {
+  width: 24%;
+  height: auto;
+  margin-left: 7px;
+
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  padding: 20px;
+  background-color:transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Effra Trial', sans-serif;
+}
+
+.prev {
+  color:#fff;
+  left: 0;
+}
+
+.next {
+  color:#fff;
+  right: 0;
+}
+  
+.inferior {
+  height:100%;
+  width:100%;
+  bottom:100%;
+  left:0;
+  right:0;
+  z-index:-1;
+  background-color:#3A328A
+}
+
+.titulos {
+  color: black;
+  font-size:18px;
+  font-weight:70px;
+  font-family: 'Effra Trial', sans-serif;
+}
+
+.container_slider{
+
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container_titulo{
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-top: 23px;
+  padding-bottom: 60px;
+  padding-left: 43px;
+}
+
+.container-img1 {
+  width:448px;
+  height:281px;
+  padding-left: -15px;
+  margin-right: -69px;
+  margin-left:-45px;
+  clip-path: inset(0% 14.5% 0% 14.5%);
+}
+
+.mas-pal-lao{
+  margin-left:-40px;
+
+}
+
+.cosa{
+  font-size: 30px;
+  font-family: 'Effra Trial', sans-serif;
+  color:#fff;
+  position: absolute;
+  top: 10px;
+  font-weight: 700;
+  left: 47%;
+  transform: translate(-20%,-460%);
+  text-align: center;
+}
+
+.imagenes{
+  position: relative;
+  text-align: center;
+}
+
+.cosa2{
+  font-size: 30px;
+  font-family: 'Effra Trial', sans-serif;
+  color:#fff;
+  position: absolute;
+  top: 20px;
+  left: 47%;
+  transform: translate(-40%,-270%);
+  text-align: center;
+  font-weight: 700;
+}
+
+.Locomocion {
+  text-align: center;
+  color:#fff;
+  font-family: 'Effra Trial', sans-serif;
+  padding-top: 35px;
+}
+
+.subNab {
+  margin-right:200%;
+}
+ 
+.Nab1 {
+  color:black;
+  font-size: 22px;
+  margin-left: 80px;
+  transform: translate(380% , 77% );
+  font-weight: 900;
+  font-family: 'Effra', sans-serif;
+  display:inline-block;
+  text-decoration:none;
+}
+
+.nabimg1 {
+  transform: translate(1850%, -10%);
+}
+
+.nabimg2 {
+  transform: translate(2800%, -10%);
+}
+
+.nabimg3 {
+  transform: translate(3900%, -10%);
+}
+
+.Nab2 {
+  color:black;
+  font-size: 22px;
+  margin-left: 80px;
+  transform: translate(301% , 77% );
+  font-weight: 900;
+  font-family: 'Effra', sans-serif;
+  display:inline-block;
+  text-decoration:none;
+}
+
+.Nab3 {
+  color:black;
+  font-size: 22px;
+  margin-left: 80px;
+  transform: translate(375% , 77% );
+  font-weight: 900;
+  font-family: 'Effra', sans-serif;
+  display:inline-block;
+  text-decoration:none;
+}
+
+.mapa {
+  height: 580px;
+}
+
+
+.descrip {
+  font-size: 125%;
+  display:inline-block;
+  transform: translateX(255%);
+  color:#fff;
+  font-family: 'Effra Trial', sans-serif;
+}
+
+
+.feet {
+  margin-left:600px;
+  color:#fff;
+  transform: translateY(-40%);
+}
+
+.Hora{
+  font-size:150%;
+  color:#fff;
+  font-family: 'Effra Trial', sans-serif;
+  text-decoration:none;
+  margin-left:650px;
+}
+
+.Deco {
+  font-size:100%;
+  color:#fff;
+  font-family: 'Effra Trial', sans-serif;
+}
+
+.direccion{
+  font-size:150%;
+  color:#fff;
+  font-family: 'Effra Trial', sans-serif;
+  text-decoration:none;
+  margin-left:225px;
+}
+
+.Contactos{
+  font-size:150%;
+  transform: translateY(-310%);
+  color:#fff;
+  font-family: 'Effra Trial', sans-serif;
+  margin-left:73%;
+}
+
+.gogle {
+  height:auto;
+  width:350px;
+  position: flex;
+  margin-left: 130px;
+  transform: translateY(-400%);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.feet2{
+  margin-left:70%;
+  color:#fff;
+  transform: translateY(-320%);
+}
+
+.social {
+  display:inline-block;
+  height:none;
+  width:20%;
+  margin-left: 70%;
+  transform: translateY(-460%);
+}
+
+.minitext {
+  font-family: 'Effra Trial', sans-serif;
+  color:#fff;
+  display:inline-block;
+  margin-left:120px;
+  transform: translateY(-3800%);
+}
+
+.foot {
+  font-family: 'Effra Trial', sans-serif;
+  color:#fff;
+  display:inline-block;
+  transform: translateY(-1000%);
+}
